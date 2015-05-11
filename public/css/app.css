@@ -6232,5 +6232,11 @@ label,
   font-weight: 300;
   background: #cc0000;
 }
+/*
+Main Nav
+ */
+.main-nav {
+  background: #f05a28;
+}
 
 /*# sourceMappingURL=app.css.map */
