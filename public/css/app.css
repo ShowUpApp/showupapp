@@ -6230,6 +6230,7 @@ body,
 label,
 .checkbox label {
   font-weight: 300;
+  background: #cc0000;
 }
 
 /*# sourceMappingURL=app.css.map */
