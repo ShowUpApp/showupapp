@@ -7,7 +7,7 @@
     </div>
     <?php// foreach $output as $key?>
     <div class="showlistwrap">
-        <?php print_r($output);?>
+        <?php //print_r($output);?>
     </div>
 </div>
 @endsection
