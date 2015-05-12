@@ -18,6 +18,5 @@ To Do
 
 # 0.3
 
-- Configure Gulp Watch with Browser:sync
 - Ad side slide menu
 - 

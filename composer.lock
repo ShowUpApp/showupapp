@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9d5142368c3d1e6836485c67b0511d61",
+    "hash": "eca03f5b84df1f9e0779afcd9e7e51cd",
     "packages": [
         {
             "name": "adamwathan/eloquent-oauth",
@@ -469,6 +469,49 @@
                 "password"
             ],
             "time": "2014-11-20 16:49:30"
+        },
+        {
+            "name": "ixudra/curl",
+            "version": "5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ixudra/Curl.git",
+                "reference": "39e29b1edeb71e38beb5236f7b4f2b24b3c54bb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ixudra/Curl/zipball/39e29b1edeb71e38beb5236f7b4f2b24b3c54bb7",
+                "reference": "39e29b1edeb71e38beb5236f7b4f2b24b3c54bb7",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.0.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Ixudra\\Curl\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Oris",
+                    "email": "jan.oris@ixudra.be"
+                }
+            ],
+            "description": "Custom PHP Curl library for the Laravel 5 framework - developed by Ixudra",
+            "homepage": "http://ixudra.be",
+            "keywords": [
+                "Ixudra",
+                "curl",
+                "laravel"
+            ],
+            "time": "2015-02-21 17:05:38"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -1999,45 +2042,6 @@
                 "environment"
             ],
             "time": "2014-12-05 15:19:21"
-        },
-        {
-            "name": "zjango/laracurl",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zjango/Laracurl.git",
-                "reference": "3ee9babf81ff8ecf27f202fe2d85f384dc73d379"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zjango/Laracurl/zipball/3ee9babf81ff8ecf27f202fe2d85f384dc73d379",
-                "reference": "3ee9babf81ff8ecf27f202fe2d85f384dc73d379",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Zjango\\Laracurl\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "zjango",
-                    "email": "zjango@icloud.com"
-                }
-            ],
-            "description": "Laravel 5.0 Package Wrapper For Andreas Lutro's OOP cURL Class",
-            "keywords": [
-                "Laracurl",
-                "curl",
-                "framework",
-                "laravel"
-            ],
-            "time": "2015-04-17 15:35:23"
         }
     ],
     "packages-dev": [
@@ -3113,9 +3117,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "zjango/laracurl": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
