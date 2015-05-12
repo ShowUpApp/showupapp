@@ -1,0 +1,14 @@
+{
+  "name": "showupapp",
+  "version": "0.0",
+  "homepage": "http://www.showupapp.co",
+  "authors": [
+    "Benjamin Wright <benjamin@davenporttheatrical.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.4",
+    "slideout.js": "~0.1.9"
+  }
+}

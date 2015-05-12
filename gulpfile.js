@@ -15,4 +15,10 @@ var browserSync = require('browser-sync').create();
 
 elixir(function(mix) {
     mix.less('app.less');
+    //mix.styles();
+    mix.scripts([
+    '../../assets/bower/jquery/dist/jquery.js',
+    '../../assets/bower/bootstrap/dist/js/bootstrap.js',
+    '../../assets/bower/slideout.js'
+], 'public/js/vendor.js');
 });
