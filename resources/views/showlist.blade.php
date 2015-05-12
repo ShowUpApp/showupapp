@@ -1,17 +1,13 @@
-<html>
-<head>
-    <title>Laravel</title>
+@extends('app')
 
-    <link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-
-
-</head>
-<body>
-<div class="container" style="background-color: red;">
-    <div class="content">
-        <div class="title">testing</div>
-
+@section('content')
+<div class="container">
+    <div class="content" style="background-color: red;">
+        <div class="title">testing </div>
+    </div>
+    <?php// foreach $output as $key?>
+    <div class="showlistwrap">
+        <?php print_r($output);?>
     </div>
 </div>
-</body>
-</html>
+@endsection
