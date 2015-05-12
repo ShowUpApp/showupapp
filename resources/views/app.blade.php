@@ -21,7 +21,7 @@
 <body>
 	 <nav id="menu" class="slideout-menu">
       <h2>Reviews</h2>
-      <h2>Shows</h2>
+      <h2>{{ HTML::linkRoute('shows', 'Shows') }}</h2>
       <h2>Creative</h2>
       <h2>Sign Out</h2>
     </nav>
