@@ -203,7 +203,7 @@ return [
          * Add OAuth alias
          */
         'OAuth' => 'AdamWathan\EloquentOAuth\Facades\OAuth',
-
+        'Laracurl'  =>  'Zjango\Laracurl\Facades\Laracurl',
 	],
 
 ];
