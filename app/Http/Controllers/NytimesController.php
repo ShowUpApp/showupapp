@@ -49,7 +49,7 @@ class NytimesController extends Controller {
      * Add twitter posting function with api
      */
     public function posttwitter(){
-
+        return view('posttwit');
     }
 
     /**
