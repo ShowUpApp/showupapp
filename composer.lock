@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "22d4e52cceb97b3e1ac6f6fc302e50c7",
+    "hash": "eca03f5b84df1f9e0779afcd9e7e51cd",
     "packages": [
         {
             "name": "adamwathan/eloquent-oauth",
@@ -469,6 +469,49 @@
                 "password"
             ],
             "time": "2014-11-20 16:49:30"
+        },
+        {
+            "name": "ixudra/curl",
+            "version": "5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ixudra/Curl.git",
+                "reference": "39e29b1edeb71e38beb5236f7b4f2b24b3c54bb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ixudra/Curl/zipball/39e29b1edeb71e38beb5236f7b4f2b24b3c54bb7",
+                "reference": "39e29b1edeb71e38beb5236f7b4f2b24b3c54bb7",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.0.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Ixudra\\Curl\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Oris",
+                    "email": "jan.oris@ixudra.be"
+                }
+            ],
+            "description": "Custom PHP Curl library for the Laravel 5 framework - developed by Ixudra",
+            "homepage": "http://ixudra.be",
+            "keywords": [
+                "Ixudra",
+                "curl",
+                "laravel"
+            ],
+            "time": "2015-02-21 17:05:38"
         },
         {
             "name": "jakub-onderka/php-console-color",

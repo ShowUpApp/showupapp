@@ -150,7 +150,12 @@ return [
          */
         
         'AdamWathan\EloquentOAuth\EloquentOAuthServiceProvider',
-        'Zjango\Laracurl\LaracurlServiceProvider',
+
+        /**
+         * Curl Library
+         */
+        'Ixudra\Curl\CurlServiceProvider',
+        
 	],
 
 	/*
@@ -203,7 +208,12 @@ return [
          * Add OAuth alias
          */
         'OAuth' => 'AdamWathan\EloquentOAuth\Facades\OAuth',
-        'Laracurl'  =>  'Zjango\Laracurl\Facades\Laracurl',
+
+        /**
+         * Add Curl Alias
+         */
+        'Curl'          => 'Ixudra\Curl\Facades\Curl',
+
 	],
 
 ];
