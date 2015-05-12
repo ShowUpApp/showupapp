@@ -25,6 +25,8 @@ class NytimesController extends Controller {
 	public function create()
 	{
 		//
+        echo "hello";
+        return view('showlist');
 	}
 
 	/**
