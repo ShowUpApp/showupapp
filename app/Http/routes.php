@@ -23,3 +23,5 @@ Route::get('/shows', function() {
     return view('showlist');
 });*/
 Route::get('/shows','NytimesController@create');
+
+Route::get('/post','NytimesController@posttwitter');
