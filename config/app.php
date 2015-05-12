@@ -150,7 +150,7 @@ return [
          */
         
         'AdamWathan\EloquentOAuth\EloquentOAuthServiceProvider',
-
+        'Zjango\Laracurl\LaracurlServiceProvider',
 	],
 
 	/*
