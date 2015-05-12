@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "22d4e52cceb97b3e1ac6f6fc302e50c7",
+    "hash": "9d5142368c3d1e6836485c67b0511d61",
     "packages": [
         {
             "name": "adamwathan/eloquent-oauth",
@@ -1999,6 +1999,45 @@
                 "environment"
             ],
             "time": "2014-12-05 15:19:21"
+        },
+        {
+            "name": "zjango/laracurl",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zjango/Laracurl.git",
+                "reference": "3ee9babf81ff8ecf27f202fe2d85f384dc73d379"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zjango/Laracurl/zipball/3ee9babf81ff8ecf27f202fe2d85f384dc73d379",
+                "reference": "3ee9babf81ff8ecf27f202fe2d85f384dc73d379",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Zjango\\Laracurl\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "zjango",
+                    "email": "zjango@icloud.com"
+                }
+            ],
+            "description": "Laravel 5.0 Package Wrapper For Andreas Lutro's OOP cURL Class",
+            "keywords": [
+                "Laracurl",
+                "curl",
+                "framework",
+                "laravel"
+            ],
+            "time": "2015-04-17 15:35:23"
         }
     ],
     "packages-dev": [
@@ -3074,7 +3113,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "zjango/laracurl": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
