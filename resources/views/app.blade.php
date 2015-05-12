@@ -21,8 +21,9 @@
 <body>
 	 <nav id="menu" class="slideout-menu">
       <h2>Reviews</h2>
-      <h2>Shows</h2>
+      <h2>{!! link_to('/shows', 'Shows') !!}</a></h2>
       <h2>Creative</h2>
+      <h2>About</h2>
       <h2>Sign Out</h2>
     </nav>
 
