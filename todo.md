@@ -2,7 +2,9 @@ To Do
 
 # 0.1
 
-- Setup Twitter OAuth
+- Install Eloquent-OAuth
+    + Get everyone to run composer update
+- Setup Twitter to OAuth
 - Deploy to the server
 - Test Twitter OAuth
 
@@ -13,3 +15,9 @@ To Do
 - Create Review 
 - Vote Up Review
 - Vote Down Review
+
+# 0.3
+
+- Configure Gulp Watch with Browser:sync
+- Ad side slide menu
+- 
