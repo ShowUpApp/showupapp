@@ -1,5 +1,5 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-@import url(http://fonts.googleapis.com/css?family=Alegreya:700italic);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:400italic);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
 html {
   font-family: sans-serif;
@@ -6546,6 +6546,70 @@ body {
 }
 .slideout-open .slideout-menu {
   display: block;
+}
+#Content {
+  padding: 2em;
+}
+.panel {
+  font-family: "Alegreya", Georgia, serif;
+  font-weight: 400;
+  font-style: italic;
+  min-width: 400px;
+  /* Firefox 1-3.6 */
+  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  border-radius: 0px;
+  box-shadow: 1px 1px 3px #58585b;
+  overflow: hidden;
+  position: relative;
+}
+.review-panel {
+  width: 85%;
+  float: left;
+}
+.review {
+  font-size: 300%;
+}
+.twitter-handle {
+  font-size: 150%;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  color: #f05a28;
+}
+.up-down {
+  float: right;
+  width: 12%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.show-up {
+  position: absolute;
+  top: .5em;
+  right: 1em;
+  height: 50px;
+  width: 50px;
+  background: url('../images/icons-grey.png') 0 0;
+  background-size: 500%;
+  display: block;
+  text-indent: -999999px;
+}
+.show-down {
+  position: absolute;
+  right: 1em;
+  bottom: .5em;
+  height: 50px;
+  width: 50px;
+  background: url('../images/icons-grey.png') 0 -30px;
+  background-size: 500%;
+  display: block;
+  text-indent: -999999px;
+}
+.up-score {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 250%;
+  font-style: normal;
+  color: #f05a28;
+  position: absolute;
+  right: .70em;
+  top: 32px;
 }
 
 /*# sourceMappingURL=app.css.map */
