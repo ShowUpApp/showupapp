@@ -49,6 +49,17 @@ class NytimesController extends Controller {
      * Add twitter posting function with api
      */
     public function posttwitter(){
+        $clientID ="vq4y3oBHyFXAvCCoitV8zT20J";
+        $clientSecret ="wQapkIsihlritnfEkkyG5FBeV0P9WLEob9TleVi730cQod89y6";
+
+        $curl = curl_init();
+
+        curl_setopt($curl, CURLOPT_URL, "https://api.twitter.com/1.1/statuses/update.json?grant_type=client_credentials");
+        curl_setopt($curl, CURLOPT_USERPWD, $clientID.":".$clientSecret);
+        curl_setopt($curl, CURLOPT_HTTPHEADER, array("Content-Type:application/json", "Cache-Control:no-cache"));
+        curl_setopt($curl, CURLOPT_POST, true);
+        curl_setopt($curl, CURLOPT_POSTFIELDS, "grant_type=client_credentials");
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
         return view('posttwit');
     }
 
