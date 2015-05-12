@@ -23,5 +23,3 @@ Route::get('/shows', function() {
     return view('showlist');
 });*/
 Route::get('/shows','NytimesController@create');
-
-// '/'
