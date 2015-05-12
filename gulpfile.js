@@ -1,4 +1,6 @@
 var elixir = require('laravel-elixir');
+var gulp        = require('gulp');
+var browserSync = require('browser-sync').create();
 
 /*
  |--------------------------------------------------------------------------
