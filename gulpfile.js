@@ -19,6 +19,6 @@ elixir(function(mix) {
     mix.scripts([
     '../../assets/bower/jquery/dist/jquery.js',
     '../../assets/bower/bootstrap/dist/js/bootstrap.js',
-    '../../assets/bower/slideout.js'
+    '../../assets/bower/slideout.js/dist/slideout.min.js'
 ], 'public/js/vendor.js');
 });

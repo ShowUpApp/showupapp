@@ -1,18 +1,55 @@
 @import "../bower/bootstrap/less/bootstrap";
 
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+
+
 @btn-font-weight: 300;
 @font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
+@font-family-serif: "Alegreya", Georgia, serif;
 
+/**
+ * Color Variables
+ */
 
+@white: #ffffff;
+@su-orange: #f05a28;
+@su-dark-grey: #58585b; 
+@su-light-grey: #d1d2d4;
 
 body, label, .checkbox label {
+    font-family: @font-family-sans-serif;
 	font-weight: 300;
     background: #ffffff;
 }
 
 /*
-Main Nav
+Slide Panel Menu
  */
+#panel {
+    font-family: @font-family-sans-serif;
+    font-weight: 200;
+    background: @white;
+    min-height: 100%;
+    header {
+        background: @su-orange;
+        padding: 10px;
+    }
+    .toggle-button {
+        color: @white;
+        background: @su-orange;
+        border:none;
+        font-size: 20px;
+    }
+}
+
+#menu {
+    font-family: @font-family-sans-serif;
+    font-weight: 300;
+    padding-left: 2em;
+    background: @su-dark-grey;
+    color: @white;
+}
 
 .main-nav {
     background: #f05a28;

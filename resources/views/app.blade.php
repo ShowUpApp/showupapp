@@ -19,18 +19,23 @@
 
 </head>
 <body>
-	 <nav id="menu">
-      <h2>Menu</h2>
+	 <nav id="menu" class="slideout-menu">
+      <h2>Reviews</h2>
+      <h2>Shows</h2>
+      <h2>Creative</h2>
+      <h2>Sign Out</h2>
     </nav>
 
-    <main id="panel">
+    <main id="panel" class="slideout-panel">
       <header>
         <button class="toggle-button">☰</button>
-        <h2>Panel</h2>
       </header>
+      <div id="Content">
+        @yield('content')
+      </div>
     </main>
 
-	@yield('content')
+	
 
 	<!-- Scripts -->
     <script src="{{ asset('/js/vendor.js') }}"></script>

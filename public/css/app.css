@@ -1,4 +1,6 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -6478,15 +6480,42 @@ button.close {
     display: none !important;
   }
 }
+/**
+ * Color Variables
+ */
 body,
 label,
 .checkbox label {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 300;
   background: #ffffff;
 }
 /*
-Main Nav
+Slide Panel Menu
  */
+#panel {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  background: #ffffff;
+  min-height: 100%;
+}
+#panel header {
+  background: #f05a28;
+  padding: 10px;
+}
+#panel .toggle-button {
+  color: #ffffff;
+  background: #f05a28;
+  border: none;
+  font-size: 20px;
+}
+#menu {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  padding-left: 2em;
+  background: #58585b;
+  color: #ffffff;
+}
 .main-nav {
   background: #f05a28;
 }
