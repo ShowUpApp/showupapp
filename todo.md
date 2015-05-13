@@ -22,10 +22,7 @@ To Do
 - Connect To Twitter API
 - Use OAuth Identities to post users reviews to Twitter
 - Create Review 
-- Vote Up Review
-- Vote Down Review
 
 # 0.3
 
-- Ad side slide menu
-- 
+- Voting Functionality
