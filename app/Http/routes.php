@@ -11,17 +11,33 @@
 |
 */
 
-// Routes
-// '/'
-// 
+/**
+ * -------------------------------------------------------------------------
+ * Reviews Route
+ * -------------------------------------------------------------------------
+ *
+ * This is the homepage route that a user sees upon logging in. It contains 
+ * the most recent highly rated reviews of current broadway shows.
+ * 
+ */
 
 Route::get('/', function() {
     return view('home');
 });
-/*
-Route::get('/shows', function() {
-    return view('showlist');
-});*/
+
+/**
+ * ------------------------------------------------------------------------
+ * Shows Route
+ * ------------------------------------------------------------------------
+ *
+ * This route displays a page of all of the shows you can give your opinion 
+ * about.
+ * 
+ */
+
 Route::get('/shows','NytimesController@create');
+
+
+
 
 Route::get('/post','NytimesController@posttwitter');

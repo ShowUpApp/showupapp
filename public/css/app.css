@@ -6516,6 +6516,9 @@ Slide Panel Menu
   background: #58585b;
   color: #ffffff;
 }
+#menu a {
+  color: #ffffff;
+}
 .main-nav {
   background: #f05a28;
 }
