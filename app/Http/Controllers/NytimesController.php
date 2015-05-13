@@ -24,10 +24,11 @@ class NytimesController extends Controller {
 	 */
 	public function create()
 	{
-		//
-        $data_arr = array('api-key'=>'2f9f8886e2276ccd7b069448245f2567:9:72054182',
-            'll'=>'40.756146,-73.99021',
-            'redius'=>'4000'
+		//TODO: We should move most of this to it's own model/package
+        $data_arr = array(
+            'api-key'   =>  '2f9f8886e2276ccd7b069448245f2567:9:72054182',
+            'll'        =>  '40.756146,-73.99021',
+            'redius'    =>  '4000'
         );
 
         $parms = http_build_query($data_arr);
