@@ -17,11 +17,23 @@ To Do
 - Use ShowsController@Create to pull from nytimes api and insert into the database.
 - Use ShowsController@ShowList to pull shows from the show model and display them in a list.
 - Create Review Model
+    + id
+    + review
+    + twitter_handle
+    + date_created
+    + date_updated
+    + score
+    + upvotes
+    + downvotes
 - Create Review Model Migrations
 - Create ReviewsController
+- ReviewsController@create
+- ReviewsController@tweet
+- ReviewsController@like
+- ReviewsController@upvote
+- ReviewsController@downvote
 - Connect To Twitter API
 - Use OAuth Identities to post users reviews to Twitter
-- Create Review 
 
 # 0.3
 
